@@ -366,15 +366,15 @@
 		Presentation.setStatus("Downloading...");
 
 	//]]></script>
-	<script type="text/javascript" src="testfs.js"></script>
+	<script type="text/javascript" src="PaintRiderfs.js"></script>
 	<script>
 		(function() {
 			var script = document.createElement('script');
-			script.src = "test.asm.js";
+			script.src = "PaintRider.asm.js";
 			script.onload = function() {
 				setTimeout(function() {
 					(function() {
-						var memoryInitializer = 'test.mem';
+						var memoryInitializer = 'PaintRider.mem';
 						if (typeof Module.locateFile === 'function') {
 							memoryInitializer = Module.locateFile(memoryInitializer);
 						} else if (Module.memoryInitializerPrefixURL) {
@@ -387,7 +387,7 @@
 					})();
 
 					var script = document.createElement('script');
-					script.src = "test.js";
+					script.src = "PaintRider.js";
 					document.body.appendChild(script);
 				}, 1); // delaying even 1ms is enough to allow compilation memory to be reclaimed
 			};
