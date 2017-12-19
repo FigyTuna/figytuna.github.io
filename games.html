@@ -29,14 +29,16 @@
         </div>
       </a>
 
-      <a href="music.html">
+      <a href="">
         <div class="top" style="right: 0">
-          <h1>Music</h1>
+          <h1></h1>
         </div>
       </a>
     </nav>
 
     <section style="float: left; width: 25%; background-color: #00ab6f;"><!-- ff7400 -->
+
+      <p><button class="game" onclick="choose(5)">Paint Rider</button></p>
 
       <p><button class="game" onclick="choose(4)">Skidroid</button></p>
 
@@ -119,9 +121,17 @@
             image = "images/gamep/skidroid.png"
             desc = "Android skiing game inspired by classics. Made by a team of 4 people in 4 days."
             play = ""
-	    dlplay = "Download apk"
+            dlplay = "Download apk"
             link = "downloads/Skidroid.apk"
             dl = "Skidroid.apk"
+	    break;
+	  case 5:
+	    title = "Paint Rider"
+            image = "images/gamep/paintrider.png"
+            desc = "A game made for OpenJam."
+            play = ""
+            dlplay = "Go to Page"
+            link = "https://figytuna.itch.io/paint-rider"
 	    break;
 			
         }
