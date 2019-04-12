@@ -1,76 +1,53 @@
-body{
-  background-color: #00ab6f;/*ff7400*/
+.title {
+  margin: 5em;
 }
-a:link{
-  text-decoration: none;
+
+.title-element {
+  text-decoration:none;
 }
-a:hover{
-  text-decoration: underline;
+
+body {
+  font-family: Gadget, sans-serif;
+  font-size: 16;
+  max-width: 900px;
+  padding-left: 2ch;
+  padding-right: 3ch;
+  margin: 0 auto;
+  background: #F5E5E0;
 }
-p{
-  font-size: 25px;
+
+a {
+  color: black;
+  font-weight: bold;
 }
-h2{
-  font-size: 40px;
+
+img {
+  border: none;
+  float:right;
+  margin-left: 3%;
+  margin-bottom: 10%;
+  width: 40%;
 }
-img{
-  padding: 10px;
-  width: 60%;
+
+.img2 {
+  float:left;
+  margin-left:0%;
+  margin-right:3%;
 }
-header{
-  margin: auto;
-  left: 0;
-  right: 0;
-  border: 5px solid #006f48;/*9b4600*/
-  height: 80px;
-  width: 99%;
-  background-color: #006f48;/*9b4600*/
-  color: #35d59d;/*ffaa63*/
-  text-align: center;
+
+div {
+  margin-bottom:8em;
+  clear: both;
 }
-header:hover{
-  background-color: #20805e;/*c55900*/
+
+p {
+  margin-top: 0px;
+  margin-bottom: 3ch;
+  text-align: justify;
 }
-nav{
-  margin: auto;
-  position: relative;
-  width: 100%;
-  height: 100px;
-}
-div.top{
-  position: absolute;
-  border: 5px solid #006f48;/*9b4600*/
-  background-color: #60d5ac;/*ff9339*/
-  color: #006f48;/*9b4600*/
-  width: 33%;
-  height: 90px;
-  text-align: center;
-  font-size: 25px;
-}
-div.top:hover{
-  background-color: #20805e;/*c55900*/
-}
-section{
-  text-align: center;
-  width: 90%;
-  margin-top: 30px;
-  margin-bottom: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #60d5ac;/*ff9339*/
-  padding: 10px;
-}
-footer{
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  height: 70px;
-  width: 100%;
-  background-color:#006f48;/*9b4600*/
-  color: #35d59d;/*ffaa63*/
-  text-align:center;
-}
-button.game{
-  width: 90%;
-  height: 40px;
+
+@media (max-width: 500px) {
+  p {
+    font-size: 115%;
+  }
 }
