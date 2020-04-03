@@ -1,2 +1,0 @@
-warp forest1 4 6
-end

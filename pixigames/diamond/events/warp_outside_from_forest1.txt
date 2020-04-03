@@ -1,2 +1,0 @@
-warp outside 6 4
-end
